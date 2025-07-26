@@ -19,18 +19,32 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsum distinctio assumenda alias porro cupiditate
       autem nihil, ullam repellendus vel.</p>
 
-    <div class="service-center">
-      <div class="center-image">
-        <img src="./me.jpg" alt="Security Shield">
+    <div class="wrapper">
+      <div class="card left-top">
+        <h4>Identifying Threats</h4>
+        <p>Secure your data and assets as soon as possible.</p>
       </div>
-      <div class="rotating">
-        <div class="card top" data-aos="fade-up-right" data-aos-duration="1000">Certified Expert<span>Professional
-            defense</span></div>
-        <div class="card right" data-aos="fade-up-right">Global Security<span>On a global scale</span></div>
-        <div class="card bottom" data-aos="fade-up-right">24/7 Support<span>Premium service</span></div>
-        <div class="card left" data-aos="fade-up-right">Advanced Layers<span>Modern protection</span></div>
+
+      <div class="card left-bottom">
+        <h4>Web Security</h4>
+        <p>Multiple layers of security across networks.</p>
+      </div>
+
+      <div class="profile">
+        <img src="./me.jpg" alt="Profile">
+      </div>
+
+      <div class="card right-top">
+        <h4>Database Security</h4>
+        <p>Keep sensitive data safe with strong strategies.</p>
+      </div>
+
+      <div class="card right-bottom">
+        <h4>Network Security</h4>
+        <p>Threat management systems for security operations.</p>
       </div>
     </div>
+
   </section>
 
   <section class="security-section">
@@ -95,10 +109,11 @@
     <h4 data-aos="fade-up" data-aos-duration="2000">>SECURITY ADVICE</h4>
     <h2 data-aos="fade-up" data-aos-duration="2000">>PRIVACY IS A HUMAN <span>RIGHT AND</span><br> IT BELONGS TO YOU
     </h2>
-    <p data-aos="fade-up" data-aos-duration="2000">We designed an all-in-one digital security service to protect your data, defend against attacks and keep your
+    <p data-aos="fade-up" data-aos-duration="2000">We designed an all-in-one digital security service to protect your
+      data, defend against attacks and keep your
       privacy. Like a shield, just focus on what inspires.</p>
 
-    <div class="privacy-cards">
+    <div class="privacy-cards" data-aos="fade-up" data-aos-duration="2000">
       <div class="privacy-card">
         <i class="fas fa-shield-alt"></i>
         <h3>Defend Against Attacks</h3>
@@ -121,7 +136,7 @@
       </div>
     </div>
 
-    <button class="get-started">View</button>
+    <button class="get-started" data-aos="fade-up" data-aos-duration="2000">View</button>
   </section>
 
   <section class="portfolio">
@@ -177,7 +192,7 @@
 
       </div>
     </div>
-    <div class="achievements-image"  data-aos="fade-left" data-aos-duration="2000">
+    <div class="achievements-image" data-aos="fade-left" data-aos-duration="2000">
       <img src="./me.jpg" alt="">
     </div>
   </div>
@@ -222,7 +237,9 @@
   </footer>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="./index.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
